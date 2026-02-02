@@ -5,15 +5,14 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Netlify Functions for server-side rendering
 [functions]
   directory = ".output/server"
+  node_bundler = "esbuild"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/server/:splat"
-  status = 200
-
+# SPA fallback - let Nitro handle all routing
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
+  force = false
