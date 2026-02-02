@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx nuxi@latest init:*)",
+      "Bash(npm install)",
+      "Bash(dir:*)",
+      "Bash(npm run test:run:*)",
+      "Bash(cd:*)",
+      "Bash(npm run test)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial release v1.0.0 - UniCoin\n\nSistema de Economía Gamificada para el Aula\n\nFeatures:\n- Autenticación de docentes \\(Supabase Auth\\) y estudiantes \\(PIN\\)\n- Sistema de emisión de monedas con rachas y bonificaciones\n- Marketplace con aprobación de compras\n- Transferencias P2P entre estudiantes\n- CDT/Ahorro a plazo con tasas variables y bonus por monto\n- Sistema de insignias conectado a rachas\n- Indicadores económicos \\(Gini, inflación, velocidad\\)\n- Subida de fotos de estudiantes\n- Dashboard de docente con auditoría\n- PWA mobile-first\n\nTech Stack:\n- Nuxt 3 + Vue 3 + TypeScript\n- Supabase \\(PostgreSQL + Auth + Storage\\)\n- Tailwind CSS\n- Vitest \\(223 tests\\)\n\nAutor: Cristhian Darío Grajales Echeverri\nEmail: cridargrajales@utp.edu.co\nEOF\n\\)\")",
+      "Bash(node -e:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
