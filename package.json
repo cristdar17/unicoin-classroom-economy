@@ -2,6 +2,9 @@
   "name": "unicoin",
   "version": "1.0.0",
   "description": "Sistema de Economía Gamificada para el Aula - Plataforma educativa para gestión de monedas virtuales en entornos universitarios",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "author": {
     "name": "Cristhian Darío Grajales Echeverri",
     "email": "cridargrajales@utp.edu.co",
